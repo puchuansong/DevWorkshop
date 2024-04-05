@@ -1,0 +1,27 @@
+
+
+Similar Concepts:
+1. Focus on Readability and Maintainability: Both companies stress that the code should be easily understandable and maintainable. This includes using clear naming conventions, providing comments to explain complex logic, and structuring the code for easy navigation.
+2. Testing: Both companies highlight the importance of testing to ensure new code does not break existing functionalities. Tests should cover new features and changes adequately.
+
+Key Differences:
+1. Tooling and Automation: Microsoft tends to utilize more sophisticated tooling and automation for code reviews, leveraging Visual Studio and Azure DevOps capabilities. In contrast, Yelp might use different tools more suited to their specific technology stack.
+2. Review Process: Microsoft's review process might be more structured and formal due to the company's size and the scope of its products, whereas Yelp could have a more agile and team-dependent process.
+
+Essential Items for a Code Review Checklist:
+1. Code correctness and bug checks: Ensure the code performs its intended function without errors.
+2. Adherence to coding standards: The code should comply with the company's coding conventions on formatting, naming, and practices.
+3. Optimization: Review for any performance issues or resource leaks.
+4. Security: Check for any potential security vulnerabilities.
+5. Documentation: Ensure new methods, classes, and logic blocks are properly documented.
+6. Testing: Verify that appropriate tests are written for new changes and that existing tests are updated.
+
+Good example:
+https://codereview.stackexchange.com/questions/291416/an-arena-bump-allocator-in-c
+The reviewer provides clear, constructive feedback that not only points out issues but also suggests improvements or alternatives. Comments should be well-organized and easy to understand.
+The review also covers a range of aspects such as logic, performance, security, and maintainability. This shows a thorough examination of the code beyond just style or syntax.
+
+Bad example:
+https://codereview.stackexchange.com/questions/291409/alternative-control-flows-to-highlight-happy-path
+A review is cryptic, overly brief, and only points out flaws without any constructive advice could be frustrating for the code author. 
+A review simply dictates changes without any engagement or rationale does not help the author understand the reasoning behind the feedback.
